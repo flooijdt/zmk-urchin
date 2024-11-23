@@ -103,7 +103,7 @@
 			&kp N1 &kp N2 &kp N3 &kp N4 &kp N5		                                    &kp N6 &kp N7 &kp N8 &kp N9 &kp N0
 			&mt LSHIFT ESC &kp HOME &kp PG_DN &kp PG_UP &kp END  &kp LEFT &kp DOWN &kp UP &kp RIGHT &mt RSHIFT SQT
 			&kp LCTRL &kp DEL &trans &trans &trans 	&trans &trans &trans &trans &kp RET
-														&kp LALT  &mo SYM2       &trans &trans
+														&kp RALT &lt SYM BSPC           &lt EXT SPACE &mt LGUI TAB
 			>;
 		};
 
@@ -114,7 +114,7 @@
 			&kp F1 &kp F2 &kp F3 &kp F4 &kp F5                  &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 
 			&mt LSHIFT F11  &kp F12  &kp PSCRN  &kp SQT  &kp GRAVE 			&kp MINUS &kp EQUAL  &kp LBKT  &kp RBKT   &mt RSHIFT BSLH
 			&kp LCTRL  &trans &trans &kp CARRET  &trans          &kp LSHIFT &trans &trans &kp INS  &kp RCTRL
-																		&kp LALT &trans    &trans  &trans 
+																		&&kp RALT &lt SYM BSPC           &lt EXT SPACE &mt LGUI TAB 
 			>;
 		};
 
