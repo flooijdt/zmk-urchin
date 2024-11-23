@@ -108,12 +108,21 @@
 		};
 
 		// Main modifiers and arrow keys
+		// ext_layer {
+		// 	label = "Mods";
+		// 	bindings = <
+		// 	&kp F1 &kp F2 &kp F3 &kp F4 &kp F5                  &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 
+		// 	&mt LSHIFT F11  &kp F12  &kp PSCRN  &kp SQT  &kp GRAVE 			&kp MINUS &kp EQUAL  &kp LBKT  &kp RBKT   &mt RSHIFT BSLH
+		// 	&kp LCTRL  &trans &trans &kp CARRET  &trans  &kp RSHIFT &trans &trans &kp INS  &kp RCTRL
+		// 					&kp RALT &lt SYM BSPC           &lt EXT SPACE &mt LGUI TAB 
+		// 	>;
+		// };
 		ext_layer {
 			label = "Mods";
 			bindings = <
 			&kp F1 &kp F2 &kp F3 &kp F4 &kp F5                  &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 
-			&mt LSHIFT F11  &kp F12  &kp PSCRN  &kp SQT  &kp GRAVE 			&kp MINUS &kp EQUAL  &kp LBKT  &kp RBKT   &mt RSHIFT BSLH
-			&kp LCTRL  &trans &trans &kp CARRET  &trans  &kp RSHIFT &trans &trans &kp INS  &kp RCTRL
+			&trans &trans &trans &trans &trans                  &trans &trans &trans &trans &trans
+			&trans &trans &trans &trans &trans                  &trans &trans &trans &trans &trans
 							&kp RALT &lt SYM BSPC           &lt EXT SPACE &mt LGUI TAB 
 			>;
 		};
