@@ -68,7 +68,7 @@
 		// 	key-positions = <31 33>;
 		// 	bindings = <&mo SYM2>;
 		// };
-		// // both left thumb keys
+		// both upper outside corner keys
 		combo_settings {
 			timeout-ms = <3000>;
 			key-positions = <0 9>;
