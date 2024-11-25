@@ -70,7 +70,7 @@
 		// };
 		// // both left thumb keys
 		combo_settings {
-			timeout-ms = <200>;
+			timeout-ms = <900>;
 			key-positions = <24 18 6>;
 			bindings = <&mo SETTINGS>;
 		};
