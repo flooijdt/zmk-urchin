@@ -70,8 +70,8 @@
 		// };
 		// // both left thumb keys
 		combo_settings {
-			timeout-ms = <1000>;
-			key-positions = <24 18>;
+			timeout-ms = <3000>;
+			key-positions = <0 9>;
 			bindings = <&mo SETTINGS>;
 		};
 		// // left index & middle fingers (home-row)
