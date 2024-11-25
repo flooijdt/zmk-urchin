@@ -152,7 +152,7 @@
 		// 	>;
 		// };
 
-		Used to change the keyboard's settings.
+		//Used to change the keyboard's settings.
 		settings_layer {
 				label = "Sett.";
 				bindings = <
