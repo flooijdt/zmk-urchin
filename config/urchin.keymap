@@ -55,7 +55,7 @@
 	};
 
 	combos {
-		compatible = "zmk,combos";
+		// compatible = "zmk,combos";
 		// // both right thumb keys
 		// combo_accent {
 		// 	timeout-ms = <200>;
@@ -69,11 +69,11 @@
 		// 	bindings = <&mo SYM2>;
 		// };
 		// both upper outside corner keys
-		combo_settings {
-			timeout-ms = <200>;
-			key-positions = <0 9>;
-			bindings = <&mo SETTINGS>;
-		};
+		// combo_settings {
+		// 	timeout-ms = <200>;
+		// 	key-positions = <0 9>;
+		// 	bindings = <&mo SETTINGS>;
+		// };
 		// // left index & middle fingers (home-row)
 		// // hold control & space for Adobe workflow
 		// combo_ctrl_space {
