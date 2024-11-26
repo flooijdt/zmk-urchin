@@ -70,7 +70,7 @@
 		// };
 		// both upper outside corner keys
 		combo_settings {
-			timeout-ms = <3000>;
+			timeout-ms = <200>;
 			key-positions = <0 9>;
 			bindings = <&mo SETTINGS>;
 		};
