@@ -41,6 +41,14 @@
 			quick-tap-ms = <200>;
 			bindings = <&kp>, <&kp>;
 		};
+		hm: homerow_mods {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <0>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+        };
 	};
 
 	macros {
@@ -91,7 +99,7 @@
 			label = "Base";
 			bindings = <
 			&kp Q &kp W &kp E &kp R &kp T                  &kp Y  &kp U  &kp I  &kp O  &kp P 
-			&mt LSHIFT A &mt LALT S &kp D &kp F &kp G           &kp H &kp J  &kp K &mt LALT L &mt RSHIFT SEMI
+			&mt LSHIFT A &hm LALT S &kp D &kp F &kp G           &kp H &kp J  &kp K &hm LALT L &mt RSHIFT SEMI
 			&mt LCTRL Z &kp X &kp C &kp V &kp B            &kp N &kp M  &kp COMMA &kp DOT &mt RCTRL SLASH
 							&kp RALT &lt NUM BSPC          &lt FNS SPACE &mt LGUI TAB
 			>;
