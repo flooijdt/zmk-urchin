@@ -90,10 +90,10 @@
 		default_layer {
 			label = "Base";
 			bindings = <
-			&kp Q &kp W &kp E &kp R &kp T           &kp Y &kp U  &kp I     &kp O   &kp P 
-			&mt LSHIFT A &kp S &kp D &kp F &kp G           &kp H &kp J  &kp K     &kp L &mt RSHIFT SEMI
-			&mt LCTRL Z &kp X &kp C &kp V &kp B           &kp N &kp M  &kp COMMA &kp DOT &mt RCTRL SLASH
-							&kp RALT &lt NUM BSPC           &lt FNS SPACE &mt LGUI TAB
+			&kp Q &kp W &kp E &kp R &kp T                  &kp Y  &kp U  &kp I  &kp O  &kp P 
+			&mt LSHIFT A &mt LALT S &kp D &kp F &kp G           &kp H &kp J  &kp K &mt LALT L &mt RSHIFT SEMI
+			&mt LCTRL Z &kp X &kp C &kp V &kp B            &kp N &kp M  &kp COMMA &kp DOT &mt RCTRL SLASH
+							&kp RALT &lt NUM BSPC          &lt FNS SPACE &mt LGUI TAB
 			>;
 		};
 
@@ -112,7 +112,7 @@
 		fns_layer {
 			label = "F's";
 			bindings = <
-			&lt SETTINGS F1 &kp F2 &kp F3 &kp F4 &kp F5                  &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 
+			&kp F1 &kp F2 &kp F3 &kp F4 &kp F5                  &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 
 			&mt LSHIFT F11 &kp F12 &kp PSCRN &kp SQT &kp GRAVE                  &kp MINUS &kp EQUAL &kp LBKT &kp RBKT &mt RSHIFT BSLH
             &kp LCTRL &trans &trans &trans &trans        &trans  &trans &trans  &kp INS &kp RCTRL
 							&kp RALT &lt NUM BSPC           &lt FNS SPACE &mt LGUI TAB 
@@ -153,14 +153,14 @@
 		// };
 
 		//Used to change the keyboard's settings.
-		settings_layer {
-				label = "Sett.";
-				bindings = <
-				&bootloader &none &none &bt BT_CLR &bt BT_SEL 0               &bt BT_SEL 3 &none &unstick &none &bootloader 
-				&none &none &none &none      &bt BT_SEL 1 						  &bt BT_SEL 4 &none &none &none &none
-				&none &none &none &none      &bt BT_SEL 2               &bt BT_SEL 5 &none &none &none &none
-										&none &none                         &none &none 
-				>;
-		};
+		// settings_layer {
+		// 		label = "Sett.";
+		// 		bindings = <
+		// 		&bootloader &none &none &bt BT_CLR &bt BT_SEL 0               &bt BT_SEL 3 &none &unstick &none &bootloader 
+		// 		&none &none &none &none      &bt BT_SEL 1 						  &bt BT_SEL 4 &none &none &none &none
+		// 		&none &none &none &none      &bt BT_SEL 2               &bt BT_SEL 5 &none &none &none &none
+		// 								&none &none                         &none &none 
+		// 		>;
+		// };
 	};
 };
