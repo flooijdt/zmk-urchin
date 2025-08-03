@@ -111,7 +111,7 @@
 			label = "Num.";
 			bindings = <
 			&kp N1 &kp N2 &kp N3 &kp N4 &kp N5		             &kp N6 &kp N7 &kp N8 &kp N9 &kp N0
-			&mt LSHIFT ESC &kp HOME &kp PG_DN &kp PG_UP &kp END  &kp LEFT &kp DOWN &kp UP &kp RIGHT &mt RSHIFT SQT
+			&mt LSHIFT ESC &kp END &kp PG_DN &kp PG_UP &kp HOME  &kp LEFT &kp DOWN &kp UP &kp RIGHT &mt RSHIFT SQT
 			&kp LCTRL &hm LALT DEL &kp TAB &mkp LCLK &mkp RCLK 	&mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_UP &mmv MOVE_RIGHT &kp RET
 							&kp RALT &lt NUM BSPC           &lt FNS SPACE &mt LGUI TAB
 			>;
